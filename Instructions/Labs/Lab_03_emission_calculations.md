@@ -82,8 +82,6 @@ Wide World Importers may not know exactly how much electricity was purchased for
 
 In this task, Alex will create factor mappings to map the Contractual instrument types, for Wide World Importers that were added by Reed previously, to the respective electric grid emission factor. This allows Microsoft Sustainability Manager to find the correct electric grid for a given Contractual instrument type. This can be expanded to map other reference data to specific emission factors, avoiding the need to create calculations models that are for specific emission factors.
 
-1.  In the bottom left corner, change your Area to **Data**.
-
     
 2.  Navigate to **Factor libraries** on the left navigation pane under **Calculations**.
 
@@ -265,7 +263,7 @@ Take the opportunity review some of the pre-built models, they are a great sourc
 
 In this task, Alex will create a new calculation model to calculate carbon emissions for purchased electricity based on the contractual instrument type. They will leverage the factor mappings created in the previous exercise to make the calculation model dynamically find the emission factor to be used per line of activity data.
 
-1.  Navigate to **Calculation models** on the left side of the page.
+1.  Navigate to **models** under **Calculations** on the left side of the page.
 
 
 
@@ -279,11 +277,14 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 4.  The fields are explained below.
 
     - The **Category name** is used for identifying the calculation model in the list.
+
     - The **Activity data** is used to identify which type of activity data the model will process.
+
     - The **Calculation method** is used to roughly note what the calculation will be doing.
+
     - The **Documentation reference** is used to identify the documentation used to create the calculation model.
 
-5.  Populate the **Source** action with the following data:
+6.  Populate the **Source** action with the following data:
 
     (1) **Category name**: Purchased Electricity: Contractual Instrument Based - 2022
 
@@ -299,17 +300,17 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
    
 
-6.  Select the **+** to add a new action to the calculation model.
+7.  Select the **+** to add a new action to the calculation model.
 
   
 
-7.  Select **Report** on the list of **Available actions**.
+8.  Select **Report** on the list of **Available actions**.
 
     **Note**: Only **Source**, **Report**, and **Estimation** actions are covered in this lab. Additional details about each available action can be found in **Calculation models** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-calculation-models#add-a-calculation-model.
 
 
 
-8.  A new **Report** action is added to the Calculation model. Select that action to configure it.
+9.  A new **Report** action is added to the Calculation model. Select that action to configure it.
 
 
 
@@ -323,7 +324,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
 
     The **Report** action stores the gases produced values, CO<sub>2</sub>E value, and other identifying information about the activity data row in the emissions table.
 
-9.  The fields are explained below.
+10.  The fields are explained below.
 
     **Note**: This value can also be determined by a Power Fx expression if a more complex value is needed instead of a specific field.
 
@@ -334,7 +335,7 @@ In this task, Alex will create a new calculation model to calculate carbon emiss
     - The **Emission factor library** is used to identify which factor library will be used to identify the emission factor.
     - The **Emission factor** is used to identify which emission factor or factor mapping will be used to calculate the emissions. Choosing a factor mapping will allow multiple reference data values to map to an emission factor, allowing for a calculation model to not be bound to a single emission factor.
 
-10.  Populate the **Report action** with the following data:
+11.  Populate the **Report action** with the following data:
 
     (1) **Category name**: Electricity \* EF (Contractual Instrument Type)
 
