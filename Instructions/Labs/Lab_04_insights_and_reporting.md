@@ -68,13 +68,7 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 In this task, Amber explores the various **Sustainability** dashboards which provide an overview of total emissions, revenue intensity, and renewable energy broken down by scope, geography, organizational unit, and facility.
 
-1.  In the bottom left corner, change the Area to **Analytics**, if necessary.
-
-    ![image](./Images/Lab04/image6.svg)
-
-2.  Select **Insights** on the left pane.
-
-      ![image](./Images/Lab04/image7.svg)
+1.  In the left navigation pane, under **Analytics**, select **Emission Insights**
 
 3.  The page displays the **Emissions overview** dashboard, the dashboard is filtered by selecting a reporting period and accounting method. The top tile in the dashboard has four tabs: All emissions, By month (comparison), By scope, and By scope (line chart). The first, third, and fourth tabs have a toggle that is used to **Show a comparison by year**. When the toggle is off, data for the selected reporting period is shown in a monthly view. When the toggle is on, all available years are shown on a trend chart. The details around each of the tabs in the top tile are as follows:
 
@@ -256,7 +250,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
 1.  In the left navigation pane, select **Reporting**.
 
-    ![image](./Images/Lab04/image25.svg)
+
 
 2.  Select **New**.
 
