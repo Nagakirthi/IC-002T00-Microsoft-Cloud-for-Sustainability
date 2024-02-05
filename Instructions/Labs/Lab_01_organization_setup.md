@@ -82,9 +82,9 @@ In this exercise, you will learn about the steps that Alex and Reed take to set 
 
 1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
 
-1. If needed, change the environment to **Microsoft Cloud for Sustainability Trial** on the top bar.
+1. If needed, change the environment to your trial on the top bar.
 
-1. Open the **Sustainability Manager** Application under Apps from the left navigation pane.
+1. Open the **Sustainability Manager** Application under Apps from the left navigation pane by clicking on Play button.
 
 
 You will land on the **Home** page for Microsoft Sustainability Manager.
